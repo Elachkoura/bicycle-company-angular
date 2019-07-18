@@ -32,9 +32,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
 
             ],
-            "scripts": [
-              "../node_modules/scrollreveal/dist/scrollreveal.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -94,9 +92,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [
-              "../node_modules/scrollreveal/dist/scrollreveal.js"
-            ]
+            "scripts": []
           }
         },
         "lint": {
