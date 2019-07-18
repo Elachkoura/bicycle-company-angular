@@ -1,0 +1,38 @@
+<div class="article-item row reveal">
+  <div class="col-md-6 article-item__img">
+    <img src="assets/imgs/articles/{{ img }}" alt="{{ title }}" />
+  </div>
+  <div class="col-md-6 p-4">
+    <div class="article-item__howTo">
+      <p>How to</p>
+      <ul>
+        <li>
+          <fa-icon [icon]="['fas', 'comments']"></fa-icon>
+          <span>Comments: {{ commentCount }}</span>
+        </li>
+        <li>
+          <fa-icon [icon]="['fas', 'clock']"></fa-icon>
+          <span>Date: {{ date }}</span>
+        </li>
+      </ul>
+    </div>
+    <div class="article-item__content">
+      <h5>{{ title }}</h5>
+      <p>{{ desc }}</p>
+    </div>
+    <div class="article-item__footer row">
+      <div class="col-md-6 author">
+        <div class="author-pic">
+          <img src="assets/imgs/users/{{ authorPic }}" />
+        </div>
+        <div class="author-info">
+          <span>Author</span>
+          <p>{{ author }}</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <app-button [classes]="''" [text]="'Read more'" [background]="'red'" [iconClass]="''"></app-button>
+      </div>
+    </div>
+  </div>
+</div>

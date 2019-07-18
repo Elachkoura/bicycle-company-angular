@@ -1,0 +1,5 @@
+<button type="button" class="btn bg-{{ background }} {{ classes }}">
+  <fa-icon class="mr-2" [icon]="['fas', iconClass]" *ngIf="iconClass && text"></fa-icon>
+  <fa-icon [icon]="['fas', iconClass]" *ngIf="!text"></fa-icon>
+  {{ text }}
+</button>

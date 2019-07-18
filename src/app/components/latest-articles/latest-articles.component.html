@@ -1,0 +1,38 @@
+<div class="pt-4 pb-4">
+  <h2 class="d-block text-center mt-5 mb-5 fs-30">Latest articles</h2>
+  <div class="container-small">
+    <!-- article 01 -->
+    <app-article-item
+    [img]="'article-01.jpg'"
+    [title]="'Lorem ipsum dolor sit amet, ea sint hinc referrentur'"
+    [desc]="'Lorem ipsum dolor sit amet, ea sint hinc referrentur duo,
+            iudico ridens eripuit est at. Cu his everti utroque hendrerit,
+            nam ne sanctus consetetur scriptorem, in consul nostro assueverit eos.
+            Inani volutpat his ne.'"
+    [author]="'Lara Craft'"
+    [authorPic]="'user-01.jpg'"
+    [date]="'5 Sep 2017'"
+    [commentCount]="5">
+    </app-article-item>
+
+    <!-- article 02 -->
+    <app-article-item
+    [img]="'article-02.jpg'"
+    [title]="'Lorem ipsum dolor sit amet, ea sint hinc referrentur'"
+    [desc]="'Lorem ipsum dolor sit amet, ea sint hinc referrentur duo,
+            iudico ridens eripuit est at. Cu his everti utroque hendrerit,
+            nam ne sanctus consetetur scriptorem, in consul nostro assueverit eos.
+            Inani volutpat his ne.'"
+    [author]="'David Lorem'"
+    [authorPic]="'user-02.jpg'"
+    [date]="'10 may 2017'"
+    [commentCount]="2">
+    </app-article-item>
+
+    <!-- Button load more -->
+    <a class="btn btn-load color-black fs-20 p-3 text-center w-100 reveal bb-grey-1" href="#" title="Load more">
+        <fa-icon class="mr-2 color-orange" [icon]="['fas', 'redo']"></fa-icon>
+        Load more
+      </a>
+  </div>
+</div>

@@ -1,0 +1,139 @@
+:host {
+  .footer {
+    padding: 30px;
+
+    &-content {
+      @media (max-width: 768px) {
+        flex-direction: column-reverse;
+      }
+    }
+
+    &-infos {
+      a {
+        text-decoration: none;
+        color: #ffffff;
+
+        h2 {
+          font-size: 30px;
+        }
+      }
+
+      p {
+        color: #7e7e7e;
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: 768px) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        li {
+          a {
+            color: #9e9e9e;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .copyright {
+        color: #7e7e7e;
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+        display: block;
+      }
+    }
+
+    &-links {
+      p {
+        color: #ffffff;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 10px;
+          a {
+            color: #9e9e9e;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    &-follow {
+      p {
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+
+        @media (max-width: 768px) {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        li {
+          a {
+            color: #ffffff;
+            text-align: center;
+
+            fa-icon {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+
+      .payment {
+        span {
+          color: #9e9e9e;
+          font-size: 14px;
+          text-align: center;
+          display: block;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+          margin: 0;
+
+          @media (max-width: 768px) {
+            flex-direction: row;
+          }
+
+          li {
+            fa-icon {
+              font-size: 40px;
+              color: #ffffff;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

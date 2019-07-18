@@ -1,0 +1,92 @@
+<div class="container-fluid">
+  <div class="bg-white p-2">
+    <h2 class="text-center color-black fs-30">Featured products</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-8 p-0">
+      <!-- Block 1 -->
+      <div class="col-md-12 m-0 p-4 pt-5 pb-5 row reveal bg-gradient-grey">
+        <div class="col-md-6 mb-md-2 d-flex flex-column">
+          <p class="color-white mb-3 fw-100">Mountain Bike</p>
+          <h5 class="color-white fw-400 fs-30 w-50">Carbon Rims Wide</h5>
+          <div class="d-flex mt-auto z-index-9">
+            <app-button [classes]="'mr-2'" [text]="'Buy'" [background]="'white'" [iconClass]="'cart-plus'"></app-button>
+            <app-button [classes]="'rond opacity-md'" [text]="''" [background]="'grey'" [iconClass]="'heart'"></app-button>
+            <p class="ml-auto mb-0 fs-20 align-items-center color-white">
+              <span class="d-block">From</span>
+              $700
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="w-100 p-4" src="assets/imgs/products/carbon-rims.png" alt="Carbon Rims Wide" />
+        </div>
+      </div>
+      <div class="col-md-12 m-0 p-0 row">
+        <!-- Block 2 -->
+        <div class="col-md-6 d-flex flex-column p-4 pt-5 pb-5 reveal bg-gradient-black">
+          <div class="row p-0">
+            <div class="col-md-6">
+              <p class="color-white mb-3 fw-100">Frames</p>
+              <h5 class="color-white fw-400 fs-30">Zealous Div Frame</h5>
+            </div>
+            <div class="col-md-6">
+              <img class="w-100 p-4" src="assets/imgs/products/frame-fork.png" alt="Zealous Div Frame" />
+            </div>
+          </div>
+          <div class="d-flex mt-auto z-index-9">
+            <app-button [classes]="'mr-2'" [text]="'Buy'" [background]="'white'" [iconClass]="'cart-plus'"></app-button>
+            <app-button [classes]="'rond opacity-md'" [text]="''" [background]="'grey'" [iconClass]="'heart'"></app-button>
+            <p class="ml-auto mb-0 fs-20 align-items-center color-white">
+              <span class="d-block">From</span>
+              $900
+            </p>
+          </div>
+        </div>
+        <!-- Block 3 -->
+        <div class="col-md-6 d-flex flex-column p-4 pt-5 pb-5 eveal bg-gradient-yellow">
+          <div class="row p-0">
+            <div class="col-md-6">
+              <p class="color-black mb-3 fw-100">Aero system</p>
+              <h5 class="color-black fw-400 fs-30">ShockStop Suspension Stem</h5>
+            </div>
+            <div class="col-md-6">
+              <img class="w-100 p-4" src="assets/imgs/products/stem.png" alt="ShockStop Suspension Stem" />
+            </div>
+          </div>
+          <div class="d-flex mt-auto z-index-9">
+            <app-button [classes]="'mr-2 opacity-md'" [text]="'Buy'" [background]="'white'" [iconClass]="'cart-plus'"></app-button>
+            <app-button [classes]="'rond opacity-md'" [text]="''" [background]="'white'" [iconClass]="'heart'"></app-button>
+            <p class="ml-auto mb-0 fs-20 align-items-center color-black">
+              <span class="d-block">From</span>
+              $700
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Block 4 -->
+    <div class="col-md-4 d-flex flex-column justify-content-between p-4 pt-5 pb-5 reveal bg-gradient-grey-x">
+      <div class="d-block">
+        <img class="w-100 p-4" src="assets/imgs/products/seat-bike.png" alt="Redshift DUAL-POST SEATPOST" />
+      </div>
+      <div class="d-flex flex-column">
+        <p class="color-white mb-3 fw-100">Aero system</p>
+        <h5 class="color-white fw-400 fs-40">Redshift DUAL-POST SEATPOST</h5>
+        <div class="d-flex mt-auto z-index-9">
+          <app-button [classes]="'mr-2'" [text]="'Buy'" [background]="'white'" [iconClass]="'cart-plus'"></app-button>
+          <app-button [classes]="'rond opacity-md'" [text]="''" [background]="'grey'" [iconClass]="'heart'"></app-button>
+          <p class="ml-auto mb-0 fs-20 align-items-center color-white">
+            <span class="d-block">From</span>
+            $700
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Button load more -->
+  <a class="btn btn-load color-black fs-20 p-3 text-center w-100 reveal" href="#" title="Load more">
+    <fa-icon class="mr-2 color-orange" [icon]="['fas', 'redo']"></fa-icon>
+    Load more
+  </a>
+</div>

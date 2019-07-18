@@ -1,0 +1,67 @@
+:host {
+  .newsletter {
+    padding: 50px 20px;
+    background-image: url('../../../assets/imgs/bg-newsletter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+      color: #000000;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 300!important;
+      letter-spacing: 2px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      color: #000000;
+      text-align: center;
+      font-size: 14px;
+      width: 60%;
+      margin: auto;
+      letter-spacing: 1px;
+      line-height: 1.4;
+      margin-bottom: 40px;
+
+      @media (max-width: 768px) {
+        width: 80%;
+      }
+    }
+
+    .input-mail {
+      width: 400px;
+      height: 50px;
+      border-radius: 30px;
+      background-color: white;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.36);
+      padding: 0 24px;
+
+      @media (max-width: 768px) {
+        width: 90%;
+      }
+
+      input {
+        border: none;
+        outline: none;
+        height: 50px;
+        font-size: 14px;
+      }
+
+      button {
+        background: transparent;
+        border: none;
+
+        fa-icon {
+          color: #fc3a52;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

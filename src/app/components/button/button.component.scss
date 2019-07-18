@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  button {
+    border-radius: 30px;
+    color: #ffffff;
+    min-height: 45px;
+    padding: 10px 30px;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.36);
+    transition: transform .4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.1)!important;
+    }
+  }
+}
